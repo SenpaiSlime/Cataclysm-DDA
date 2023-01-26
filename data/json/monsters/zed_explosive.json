@@ -229,13 +229,14 @@
     "melee_skill": 4,
     "armor_bash": 20,
     "armor_cut": 5,
-    "armor_bullet": 5,
-    "armor_elec": 2,
-    "vision_night": 5,
+    "armor_bullet": 4,
+    "armor_elec": 3,
+    "bleed_rate": 50,
+    "vision_night": 3,
     "harvest": "zombie_meatslug",
+    "fungalize_into": "mon_boomer_fungus",
     "emit_fields": [ { "emit_id": "emit_sludge_puddle", "delay": "1 s" } ],
     "special_attacks": [
-      [ "BOOMER", 21 ],
       {
         "type": "bite",
         "cooldown": 1,
@@ -251,7 +252,7 @@
       }
     ],
     "death_drops": "default_zombie_items",
-    "death_function": { "effect": { "id": "death_boomer", "hit_self": true }, "message": "A %s explode!", "corpse_type": "NO_CORPSE" },
+    "death_function": { "effect": { "id": "death_boomer_glutton", "hit_self": true }, "message": "A %s explode!", "corpse_type": "NO_CORPSE" },
     "flags": [
       "SEES",
       "HEARS",
