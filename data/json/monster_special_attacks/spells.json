@@ -325,13 +325,10 @@
     "min_range": 4,
     "max_range": 4,
     "effect": "attack",
-    "effect_str": "boomered",
-    "min_duration": 2400,
-    "max_duration": 2400,
     "shape": "cone",
     "field_id": "fd_sludge",
-    "field_chance": 3,
-    "min_field_intensity": 1,
+    "field_chance": 2,
+    "min_field_intensity": 2,
     "max_field_intensity": 2
   },
   {
